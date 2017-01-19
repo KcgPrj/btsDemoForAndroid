@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
         currentOperator = null
         pressOpr = false
         pressDot = false
+        pressEqual = false
         setResultText(0.0)
     }
 
