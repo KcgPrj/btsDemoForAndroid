@@ -18,7 +18,6 @@ class MyApp : Application() {
             val apiLevel = Build.VERSION.SDK_INT
             val build = BugReportBuilder()
                     .stacktrace(throwable.stackTrace.joinToString { "\n" })
-                    .assignUserId(0)
                     .description("$throwableStr : $thread")
                     .title(throwableStr)
                     .version("version")

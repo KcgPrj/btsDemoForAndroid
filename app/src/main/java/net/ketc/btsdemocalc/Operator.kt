@@ -1,8 +1,5 @@
 package net.ketc.btsdemocalc
 
-/**
- * sealedクラス使ってみたかっただけ…
- */
 sealed class Operator {
     abstract fun run(x: Double, y: Double): Double
 
